@@ -1,2 +1,6 @@
-<h1>{{title}}</h1>
-<app-dashboard></app-dashboard>
+<div class="po-wrapper">
+  <po-menu [p-menus]="menus"></po-menu>
+  <po-page-default p-title="DashBoard">
+    <app-dashboard></app-dashboard>
+  </po-page-default>
+</div>
